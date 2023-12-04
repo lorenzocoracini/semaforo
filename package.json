@@ -5,6 +5,7 @@
     "sqlite3": "^5.1.6"
   },
   "scripts": {
-    "vercel-build": "yarn migration:run"
+    "start": "node ./index.js",
+    "vercel-build": "npm install"
   }
 }
